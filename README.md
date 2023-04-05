@@ -1,1 +1,1 @@
-https://github.com/ivanh1ynka/weather/new/main?readme=1
+https://ivanh1ynka.github.io/weather/
