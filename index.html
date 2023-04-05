@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Weather</title>
+	<link rel="shortcut icon" href="./img/sun.ico">
+	<script src="https://kit.fontawesome.com/1463ad3125.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<main class="main">
+		<div class="container">
+			<div class="weather">
+				<sidebar class="sidebar">
+	<div class="sidebar__data">
+		<div class="search">
+			<input type="text" class="search__input" value="Львів">
+		</div>
+		<div class="location">
+			<p class="location__address" id="address">Address</p>
+		</div>
+		<div class="date">
+			<div class="date__days">
+				<p class="date__day" id="day">Понеділок:</p>
+			</div>
+			<div class="date__times">
+				<p class="date__time" id="time">00:00:00</p>
+			</div>
+		</div>
+		<div class="weather__image">
+			<img src="https://openweathermap.org/img/wn/01d.png" alt="weather__image" class="weather__img">
+		</div>
+		<div class="weather__temperature">
+			<p class="weather__number">0</p>
+			<span class="weather__unit-temp">°C</span>
+		</div>
+	</div>
+</sidebar>
+				<div class="content">
+	<div class="more">
+		<div class="wind">
+			<div class="wind__text">
+				<p class="wind__deg" id="wind-direction">Північний</p>
+				<div class="wind__speed">
+					<p class="wind__speed-value" id="wind-speed">0 м/с</p>
+				</div>
+			</div>
+			<div class="wind__img">
+				<img src="../img/arrow_up.svg" alt="arrow" class="wind__image">
+			</div>
+		</div>
+
+		<div class="data">
+			<div class="sun">
+				<div class="sun__sunrice">
+					<span class="sun__sunrice-value">00:00</span>
+					<p class="sun__sunrice-text">Схід Сонця</p>
+				</div>
+				<div class="sun__sunset">
+					<span class="sun__sunset-value">00:00</span>
+					<p class="sun__sunset-text">Схід Сонця</p>
+				</div>
+			</div>
+			<div class="data__humidity data__info">
+				<p class="data__humidity-text data-text">Вологість</p>
+				<p class="data__humidity-value data-value" id="humidity">0</p>
+			</div>
+			<div class="data__pressure data__info">
+				<p class="data__pressure-text data-text">Тиск</p>
+				<p class="data__pressure-value data-value" id="pressure">0</p>
+			</div>
+			<div class="data__feels data__info">
+				<p class="data__feels-text data-text">Відчувається</p>
+				<p class="data__feels-value data-value" id="feels">0</p>
+			</div>
+			<div class="data__max data__info">
+				<p class="data__max-text data-text">max</p>
+				<p class="data__max-value data-value" id="max-temp">0</p>
+			</div>
+			<div class="data__min data__info">
+				<p class="data__min-text data-text">min</p>
+				<p class="data__min-value data-value" id="min-temp">0</p>
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+	</main>
+</body>
+
+<script src="./js/scripts.js"></script>
+
+</html>
